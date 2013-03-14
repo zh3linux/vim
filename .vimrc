@@ -49,6 +49,9 @@ Bundle 'nvie/vim-flake8'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/nerdtree'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'ervandew/supertab'
+Bundle 'bufexplorer.zip'
 
 filetype plugin indent on
 
