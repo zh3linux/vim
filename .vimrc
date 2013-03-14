@@ -10,6 +10,12 @@ set sw=4
 set et
 """-----补全"""
 set completeopt+=longest
+"""-----命令补全-----
+set wildmenu   " 显示补全列表
+set wildmode=longest:full   " 补全行为设置
+"""-----" shift tab pages
+map <S-Left> :tabp<CR>
+map <S-Right> :tabn<CR>
 "离开插入模式后自动关闭预览窗口
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 "回车即选中当前项
