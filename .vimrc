@@ -32,9 +32,9 @@ let g:pyflakes_use_quickfix = 0
 let g:flake8_ignore="E501"
 
 """----  代码折叠 -----
-autocmd FileType python setlocal foldmethod=indent
+""autocmd FileType python setlocal foldmethod=indent
 "默认展开所有代码
-set foldlevel=99
+"" set foldlevel=99
 
 """ ---- Vundle ---- 
 set nocompatible " be iMproved
@@ -53,7 +53,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'ervandew/supertab'
 Bundle 'bufexplorer.zip'
 
-filetype plugin indent on
+filetype plugin on
 
 """ ---- 代码结构 ------
 let g:tagbar_ctags_bin='/usr/local/bin/ctags'
