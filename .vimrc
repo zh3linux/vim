@@ -1,5 +1,6 @@
+set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp936
 color desert
-set nu
+"""set nu
 syntax on
 let loaded_matchparen = 1  "括号高亮
 set incsearch
